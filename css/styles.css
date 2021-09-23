@@ -1,0 +1,46 @@
+body {
+    color: #fff;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 16px;
+}
+
+h2 {
+    background-color: #008ecc;
+    font-size: 24px;
+    padding: 8px 16px;
+}
+
+.item {
+    border: 1px solid #fff;
+    margin: 0 16px 16px;
+}
+
+.content {
+    padding: 16px;
+}
+
+/** creating stages of squishiness **/ 
+ /** try out different combinations of flex-wrap and flex-direction. Even try commenting out the flex-properies from this selector and leaving the one .col - to see what happens */
+.flex-container {
+    display: flex; /** places all elements by default in a row, starting from the left **/
+    flex-flow: wrap; /** creates rows **/
+    
+}
+
+.col {
+    width: 100%;
+    /** if you have a defined width and you add in a display: flex; property-value pair, then flex will reset the the defined back to its initial width **/
+     display: flex;
+}
+
+.item {
+    /** allows the card take up all the additional space **/
+    width: 100%;
+}
+
