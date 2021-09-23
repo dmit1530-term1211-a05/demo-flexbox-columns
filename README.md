@@ -1,6 +1,6 @@
 # [demo] Flexbox Columns
 
-In this demo we look at how to use flexbox's property 'flexflow' for layout purposes. Flex-wrap is used to adjust the layout and content to different screen-sizes (stages of squishiness). 
+In this demo, we look at how to use flexbox's property 'flexflow' for layout purposes. Flex-wrap is used to adjust the layout and content to different screen sizes (stages of squishiness). 
 
 ---
 
